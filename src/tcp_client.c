@@ -5,7 +5,7 @@ struct sockaddr_in servidorAddr;
 char buffer[16];
 unsigned int tamanhoMensagem;
 const char IP_Servidor[] = "192.168.0.52";
-const unsigned short servidorPorta = 10016;
+const unsigned short servidorPorta = 10116;
 
 void client_send(requisicao req){
 

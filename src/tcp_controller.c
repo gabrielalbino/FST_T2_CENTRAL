@@ -14,7 +14,7 @@ void tcp_setup(){
 	memset(&servidorAddr, 0, sizeof(servidorAddr)); // Zerando a estrutura de dados
 	servidorAddr.sin_family = AF_INET;
 	servidorAddr.sin_addr.s_addr = htonl(INADDR_ANY);
-	servidorAddr.sin_port = htons(10116);
+	servidorAddr.sin_port = htons(10016);
 
 	// Bind
 	if(bind(servidorSocket, (struct sockaddr *) &servidorAddr, sizeof(servidorAddr)) < 0)
