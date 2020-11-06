@@ -85,6 +85,8 @@ void mostraMenu(){
   }
 
   printf("------------------------------------------------------\n");
+
+  printf("Pressione enter para acessar o menu\n");
 }
 
 void *threadTCP(void *args){
